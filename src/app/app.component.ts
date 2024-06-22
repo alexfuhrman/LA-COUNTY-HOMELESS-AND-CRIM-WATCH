@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { LOSANGELESCOUNTYCRIMEWATCHMasterViewComponent } from './los-angeles-county-crime-watch-master-view/los-angeles-county-crime-watch-master-view.component';
-import { IGX_NAVBAR_DIRECTIVES, IgxIconButtonDirective, IgxRippleDirective, IgxToggleDirective, IgxToggleActionDirective, IgxOverlayOutletDirective, IgxIconComponent, IGX_NAVIGATION_DRAWER_DIRECTIVES } from 'igniteui-angular';
+import { IGX_NAVIGATION_DRAWER_DIRECTIVES, IgxIconComponent, IGX_LIST_DIRECTIVES } from 'igniteui-angular';
 
 @Component({
   selector: 'app-root',

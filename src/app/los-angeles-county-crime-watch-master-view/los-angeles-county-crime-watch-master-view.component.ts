@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { IGX_NAVBAR_DIRECTIVES, IGX_NAVIGATION_DRAWER_DIRECTIVES, IgxIconButtonDirective, IgxIconComponent, IgxOverlayOutletDirective, IgxRippleDirective, IgxToggleActionDirective, IgxToggleDirective } from 'igniteui-angular';
+import { IGX_LIST_DIRECTIVES, IGX_NAVIGATION_DRAWER_DIRECTIVES, IgxIconComponent, IgxOverlayOutletDirective, IgxToggleActionDirective, IgxToggleDirective } from 'igniteui-angular';
 
 @Component({
   selector: 'app-los-angeles-county-crime-watch-master-view',
   standalone: true,
-  imports: [IGX_NAVIGATION_DRAWER_DIRECTIVES, IGX_NAVBAR_DIRECTIVES, IgxIconButtonDirective, IgxToggleActionDirective, IgxOverlayOutletDirective, IgxRippleDirective, IgxToggleDirective, IgxIconComponent, RouterOutlet],
+  imports: [IGX_NAVIGATION_DRAWER_DIRECTIVES, IGX_LIST_DIRECTIVES, IgxToggleActionDirective, IgxOverlayOutletDirective, IgxToggleDirective, IgxIconComponent],
   templateUrl: './los-angeles-county-crime-watch-master-view.component.html',
   styleUrls: ['./los-angeles-county-crime-watch-master-view.component.scss']
 })
